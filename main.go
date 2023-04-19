@@ -41,5 +41,5 @@ func main() {
 			"result": config.VersionInfo,
 		})
 	})
-	_ = router.Run(":80")
+	_ = router.Run(":8080")
 }
